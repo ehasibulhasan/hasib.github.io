@@ -21,9 +21,9 @@ p { margin: 0 0 16px; }
 .research-item { margin: 0 0 24px; }
 .research-item h2, .teaching-card h2 { margin: 0 0 6px; font-size: 1.12em; }
 .cv-download-panel { margin: 14px 0 26px; }
-.home-layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 30px; align-items: start; }
-.home-photo-wrap { width: 200px; max-width: 100%; }
-.profile-photo { display: block; width: 100%; max-height: 265px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; user-select: none; -webkit-user-drag: none; }
+.home-layout { display: grid; grid-template-columns: 400px minmax(0, 1fr); gap: 60px; align-items: start; }
+.home-photo-wrap { width: 400px; max-width: 100%; }
+.profile-photo { display: block; width: 100%; max-height: 530px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; user-select: none; -webkit-user-drag: none; }
 .skip-link { position: absolute; left: -9999px; }
 .skip-link:focus { left: 12px; top: 12px; background: white; padding: 8px; }
 .site-footer { margin-top: 46px; }
