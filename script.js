@@ -17,3 +17,9 @@ if (menuButton && navigation) {
 
 const year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
+
+const profilePhoto = document.querySelector('.profile-photo');
+if (profilePhoto) {
+  profilePhoto.addEventListener('contextmenu', (event) => event.preventDefault());
+  profilePhoto.addEventListener('dragstart', (event) => event.preventDefault());
+}
