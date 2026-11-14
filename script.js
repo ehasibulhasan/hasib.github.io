@@ -6,6 +6,7 @@ if (menuButton && navigation) {
     const isOpen = navigation.classList.toggle('open');
     menuButton.setAttribute('aria-expanded', String(isOpen));
   });
+
   navigation.querySelectorAll('a').forEach((link) => {
     link.addEventListener('click', () => {
       navigation.classList.remove('open');
@@ -14,4 +15,5 @@ if (menuButton && navigation) {
   });
 }
 
-document.getElementById('year').textContent = new Date().getFullYear();
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();

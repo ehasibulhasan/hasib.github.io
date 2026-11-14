@@ -1,44 +1,38 @@
 # Hasibul Hasan — Academic Website
 
-A responsive, minimal academic portfolio built with plain HTML, CSS, and JavaScript for GitHub Pages. No build tools or dependencies are required.
+A responsive, multi-page academic website built with HTML, CSS, and JavaScript for GitHub Pages.
 
-## 1. Personalize before publishing
+## Pages
 
-Open `index.html` and replace the following placeholders:
+- `index.html` — Home
+- `about.html` — About
+- `research.html` — Research
+- `teaching.html` — Teaching
+- `cv.html` — Curriculum Vitae
 
-- `YOUR_EMAIL@colorado.edu` — replace both the visible email address and the `mailto:` address with your preferred public email.
-- Google Scholar, GitHub, and LinkedIn URLs — replace the generic profile links with your own profile URLs (or remove any that you do not use).
-- Add your current courses, semester information, working papers, and other research details as appropriate.
+The navigation links open separate pages rather than scrolling through one long page.
 
-The biography and research-interest descriptions are starter copy. Please review them for accuracy and update them as your work evolves.
+## Add your CV
 
-## 2. Add your CV
+1. Open the repository on GitHub.
+2. Open the `assets` folder (or create it if it does not exist).
+3. Upload your CV PDF into that folder.
+4. Name the file exactly `Hasibul_Hasan_CV.pdf`.
 
-Place your PDF in the `assets` directory and name it exactly:
+The expected path is:
 
-`Hasibul_Hasan_CV.pdf`
+`assets/Hasibul_Hasan_CV.pdf`
 
-The CV button already links to this path. If you use a different filename, update the link in `index.html`.
+The CV page already links to this path. Do not put the PDF beside `index.html`; it belongs inside `assets`.
 
-## 3. Publish with GitHub Pages
+## Publish
 
-1. Sign in to GitHub and create a **public** repository named exactly `YOUR-GITHUB-USERNAME.github.io`.
-2. Upload the contents of this folder to the root of that repository. The `index.html` file must be at the repository root, not inside another nested folder.
-3. Commit the files to the `main` branch.
-4. In the repository, open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
-5. Wait for the deployment to finish. Your site will be available at `https://YOUR-GITHUB-USERNAME.github.io/`.
+Upload the contents of this folder to the root of your GitHub Pages repository. The five HTML files, `styles.css`, `script.js`, and `assets` folder should all be at the repository root level (with the PDF inside `assets`).
 
-GitHub Pages may take a few minutes to publish the first time. You can monitor progress in the repository's **Actions** tab.
+For the existing project repository, keep the same repository and replace the old files with these updated files. Commit the changes to the branch configured in Settings → Pages.
 
-## Files
+Contact email: `hasib.hasan@colorado.edu`
 
-- `index.html` — page content and structure
-- `styles.css` — layout, typography, colors, and responsive styling
-- `script.js` — mobile navigation and current footer year
-- `assets/` — place your CV PDF and optional profile image here
+## Typography
 
-## Notes
-
-- The site uses Google Fonts for DM Sans and Libre Baskerville. If external font loading is unavailable, local system fallback fonts are used.
-- No analytics, trackers, forms, or external JavaScript libraries are included.
-- You can preview the site locally by opening `index.html` in a browser.
+The site uses Computer Modern / Latin Modern-style web fonts, approximating the default LaTeX typeface. The font stylesheet is loaded from a CDN, so a network connection is needed for the web font.
