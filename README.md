@@ -27,3 +27,6 @@ Upload your CV PDF into `assets` and name it exactly `Hasibul_Hasan_CV.pdf`.
 Upload the contents of this folder to the root of your GitHub Pages repository, replacing the previous files, then commit the changes. Remove any old `about.html` file from the repository if it remains from an earlier version.
 
 Contact: `hasib.hasan@colorado.edu`
+
+
+The site name “Hasibul Hasan” in the header links to the homepage. There is no separate Home navigation item; use Research, Teaching, and CV to navigate to the other pages. The homepage portrait is displayed in a compact left column beside the biography. Add your image as `assets/profile.jpg`.
